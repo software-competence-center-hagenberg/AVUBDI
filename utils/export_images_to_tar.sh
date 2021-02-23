@@ -1,0 +1,1 @@
+docker save $(docker images --format '{{.Repository}}:{{.Tag}}') -o avubdi.tar
